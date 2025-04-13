@@ -64,13 +64,23 @@ header {
   text-decoration: none;
 }
 
-.zodiac-name a:hover {
-  color: #ff4444;          /* Red on hover */
+.zodiac-name a:link {
+  color: #add8e6;
+  text-decoration: none;
 }
 
 .zodiac-name a:visited {
-  color: #ee82ee;          /* Violet after click */
+  color: #ee82ee;
 }
+
+.zodiac-name a:hover {
+  color: #ff4444;
+}
+
+.zodiac-name a:active {
+  color: #ff2222;
+}
+
 
 .zodiac-dates {
   font-size: 1em;
