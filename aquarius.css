@@ -54,11 +54,21 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #ff4444;
+a:link {
+  color: #add8e6;
+  text-decoration: none;
 }
 
 a:visited {
   color: #ee82ee;
 }
+
+a:hover {
+  color: #ff4444;
+}
+
+a:active {
+  color: #ff2222;
+}
+
 
